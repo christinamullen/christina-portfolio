@@ -9,7 +9,7 @@ const Hero = () => {
         <p>hello! My name is</p>
         <h1 className='text-pink-600 text-2xl sm:text-4xl font-bold'>Christina Mullen</h1>
         <h2 className='text-[#8892b0] text-2xl sm:text-4xl font-bold'>Designer and Full Stack Developer. </h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>With 10 years experience in healthcare as a clinician, I bring a human-centric approach to design and development.</p>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>With 10 years experience in healthcare as a clinician, I'm on a mission to make digital experiences seamless and intuitive so that users can live better.</p>
         <h2> </h2>
         <button className='max-w-[175px] text-white border-2 border-pink-600 px-6 py-3 my-2 flex items-center hover:bg-pink-600'>Get in Touch 
         <span className='hover:rotate-90 duration-300'>
