@@ -1,6 +1,9 @@
 import React from 'react'
-import hoodcats from '../assets/images/HoodcatsCafeCaseStudy.png' 
-import ww from '../assets/images/WWCaseStudy.png'
+import hoodcats from '../assets/images/Hoodcats.png' 
+import ww from '../assets/images/WWUX.png'
+import flora from '../assets/images/JavaFlora.png'
+import rsvp from '../assets/images/PythonRSVP.png'
+import ev from '../assets/images/JSProject.png'
 
 const Work = () => {
   return (
@@ -15,13 +18,21 @@ const Work = () => {
             </div>
           </div>
 
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-8'>
-                <div className='max-w-[250px] sm:text-right text-3xl font-bold bg-white text-black'>
+            <div className='max-w-[756px] w-full grid grid-cols-3 sm:grid-cols-2 gap-4 py-8'>
+                <div className='col-span-2 sm:text-right text-3xl font-bold bg-white text-black'>
                   <img src={hoodcats} alt='' />
-                  <img src={ww} alt='' />
                 </div>
-                <div className='font-bold text-gray-700'>
-               <p>Coding Projects</p>
+                <div className='font-bold col-span-1 col-start-3 text-gray-700'>
+                <img src={ev} alt='' />
+                </div>
+                <div className='font-bold col-span-1  text-gray-700'>
+                <img src={rsvp} alt='' />
+                </div>
+                <div className='font-bold col-start-2 col-span-2 row-start-2 text-gray-700'>
+                <img src={ww} alt='' />
+                </div>
+                <div className='font-bold row-start-3 text-gray-700'>
+                <img src={flora} alt='' />
                 </div>
 
             </div>
