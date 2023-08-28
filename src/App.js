@@ -1,19 +1,41 @@
+
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import ArrowDivider from "./components/ArrowDivider";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import WebDesignII from "./components/webDesignII";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Hero />
-      <About />
-      <ArrowDivider />
-      <Work />
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <NavBar />
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={
+              <div>
+                <Hero />
+                <About />
+                <Skills />
+                <ArrowDivider />
+                <Work />
+                <Contact />
+                
+              </div>
+            } />
+            <Route path="/WebDesignII" element={<WebDesignII />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </Router>
 
-    </div>
   );
 }
 
