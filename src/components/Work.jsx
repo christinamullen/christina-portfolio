@@ -13,8 +13,6 @@ const Work = () => {
         <div className='my-28'>
           <h1 className='text-4xl font-bold inline border-4 px-4 py-2 m-8 border-pink-600'>Work Samples</h1>
         </div>
-
-
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 py-8'>
           <a href="/UICaseStudyHC" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
             <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-white text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:translate-x-5'>
