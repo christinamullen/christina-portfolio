@@ -55,21 +55,12 @@ const UICaseStudyHC = () => {
             </ul>
           </p>
         </div>
-      </div>
-
-      <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-24 py-8'>
-
-
-
-
-      </div>
-      <div>
-        <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-pink-600'>Timeline</h1>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>February 2023 - April 2023</p>
+        <div>
+          <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-pink-600'>Timeline</h1>
+          <p className='text-[#8892b0] py-4 max-w-[700px]'>February 2023 - April 2023</p>
+        </div>
       </div>
     </div>
-
-
   )
 }
 
