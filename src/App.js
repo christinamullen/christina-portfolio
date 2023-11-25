@@ -5,6 +5,8 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import ArrowDivider from "./components/ArrowDivider";
 import Work from "./components/Work";
+import UICaseStudyHC from "./components/UICaseStudyHC";
+import UXCaseStudyWW from "./components/UXCaseStudyWW";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WebDesignII from "./components/webDesignII";
@@ -29,6 +31,8 @@ function App() {
                 
               </div>
             } />
+             <Route path="/UICaseStudyHC" element={<UICaseStudyHC />} />
+            <Route path="/UXCaseStudyWW" element={<UXCaseStudyWW />} />
             <Route path="/WebDesignII" element={<WebDesignII />} />
           </Routes>
         </div>
