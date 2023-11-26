@@ -34,7 +34,7 @@ const PersonaL = () => {
                 </div>
 
                 <div name='col2' className='order-1 sm:order-2 mx-auto'>
-                    <img className='max-h-[368px] mx-auto rounded-full border-2 p-4' src={laila} alt='picture of Laila' />
+                    <img className='max-h-[368px] mx-auto rounded-full border-2 p-4' src={laila} alt='Laila' />
                     <ul className='w-[300px] bg-[#9995C8] py-4 mt-8 border-2 border-[#F5F5FA]'>
                         <li><span className='font-bold'>Age:</span> 33</li>
                         <li><span className='font-bold'>Education:</span> College Graduate</li>

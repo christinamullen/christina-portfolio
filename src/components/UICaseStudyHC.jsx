@@ -30,15 +30,15 @@ const UICaseStudyHC = () => {
 
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 py-8'>
           <div>
-            <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-[#8892b0]'>Challenge</h1>
+            <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Challenge</h1>
             <p className='text-[#8892b0] py-4 max-w-[700px]'> Design a platform and User Interface for a non-profit that will allow users to pre-order food and beverages for pickup, schedule visits to the cat cafe, and load funds on to their account. </p>
           </div>
           <div>
-            <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-[#8892b0]'>Role</h1>
+            <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Role</h1>
             <p className='text-[#8892b0] py-4 max-w-[700px]'> User interface designer, solo project</p>
           </div>
           <div>
-            <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-[#8892b0]'>Tools</h1>
+            <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Tools</h1>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>
               <ul>
                 <li>Figma</li>
@@ -50,7 +50,7 @@ const UICaseStudyHC = () => {
             </p>
           </div>
           <div>
-            <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-[#8892b0]'>Deliverables</h1>
+            <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Deliverables</h1>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>
               <ul>
                 <li>UI Prototype</li>
@@ -61,7 +61,7 @@ const UICaseStudyHC = () => {
             </p>
           </div>
           <div>
-            <h1 className='text-2xl font-bold inline border-2 px-4 py-2 text-[#F5F5FA] border-[#8892b0]'>Timeline</h1>
+            <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Timeline</h1>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>February 2023 - April 2023</p>
           </div>
         </div>
@@ -70,8 +70,8 @@ const UICaseStudyHC = () => {
 
       <div className='w-full mx-auto px-32 flex flex-col items-center justify-center bg-[#9995C8]'>
         <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>User Research</h1>
-        <p className='font-bold m-4'>Getting a deep understanding of the on-the-go coffee-drinker and cat-lover</p>
-        <h1 className='text-2xl inline border-2 px-4 py-2 text-[#F5F5FA] bg-[#1F1F21] border-[#8892b0]'>Insights</h1>
+        <p className=' m-4'>Getting a deep understanding of the on-the-go coffee-drinker and cat-lover</p>
+        <h1 className='text-2xl inline font-bold px-4 py-2 text-black'>Insights</h1>
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 py-8 '>
 
           <div>

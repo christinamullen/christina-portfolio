@@ -7,6 +7,7 @@ import ArrowDivider from "./components/ArrowDivider";
 import Work from "./components/Work";
 import UICaseStudyHC from "./components/UICaseStudyHC";
 import PersonaL from "./components/PersonaL";
+import Features from "./components/Features";
 import UXCaseStudyWW from "./components/UXCaseStudyWW";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -32,7 +33,7 @@ function App() {
                 
               </div>
             } />
-             <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /></div>} />
+             <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /><Features /></div>} />
             <Route path="/UXCaseStudyWW" element={<UXCaseStudyWW />} />
             <Route path="/WebDesignII" element={<WebDesignII />} />
           </Routes>
