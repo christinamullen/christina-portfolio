@@ -8,8 +8,10 @@ import Work from "./components/Work";
 import UICaseStudyHC from "./components/UICaseStudyHC";
 import PersonaL from "./components/PersonaL";
 import Features from "./components/Features";
+import Takeaways from "./components/Takeaways";
 import SiteArchitecture from "./components/SiteArchitecture";
 import UXCaseStudyWW from "./components/UXCaseStudyWW";
+import UserResearch from "./components/UserResearch";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WebDesignII from "./components/webDesignII";
@@ -34,8 +36,8 @@ function App() {
                 
               </div>
             } />
-             <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /><Features /><SiteArchitecture /></div>} />
-            <Route path="/UXCaseStudyWW" element={<UXCaseStudyWW />} />
+             <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /><Features /><SiteArchitecture /><Takeaways/><Work />< Contact /></div>} />
+            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> </div>} />
             <Route path="/WebDesignII" element={<WebDesignII />} />
           </Routes>
         </div>
