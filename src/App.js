@@ -14,8 +14,10 @@ import UXCaseStudyWW from "./components/UXCaseStudyWW";
 import UserResearch from "./components/UserResearch";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import PovHMW from "./components/PovHMW";
 import WebDesignII from "./components/webDesignII";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import EmpathyMap from "./components/EmpathyMap";
 
 
 function App() {
@@ -37,7 +39,7 @@ function App() {
               </div>
             } />
              <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /><Features /><SiteArchitecture /><Takeaways/><Work />< Contact /></div>} />
-            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> </div>} />
+            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> <PersonaL /><EmpathyMap /><PersonaL /><EmpathyMap /><SiteArchitecture /><PovHMW /></div>} />
             <Route path="/WebDesignII" element={<WebDesignII />} />
           </Routes>
         </div>
