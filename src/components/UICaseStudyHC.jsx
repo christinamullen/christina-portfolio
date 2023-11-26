@@ -2,6 +2,9 @@ import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import hoodcats from '../assets/images/HCUI.png'
 import coffeeShop from '../assets/images/coffeeResearch.png'
+import coffeeLady from '../assets/images/coffeeLady.png'
+import coffeeShopCup from '../assets/images/coffeeResearch2.png'
+
 
 const UICaseStudyHC = () => {
   return (
@@ -70,35 +73,32 @@ const UICaseStudyHC = () => {
         <p className='font-bold m-4'>Getting a deep understanding of the on-the-go coffee-drinker and cat-lover</p>
         <h1 className='text-2xl inline border-2 px-4 py-2 text-[#F5F5FA] bg-[#1F1F21] border-[#8892b0]'>Insights</h1>
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 py-8 '>
-          <img className='mx-auto p-4' src={coffeeShop} alt='someone ordering coffee' />
+
           <div>
             <h1 className='font-bold text-xl py-4 text-[#1F1F21]'>Audience Interviews</h1>
             <p>Since the focus of the project was the UI, the pool of surveyed participants was limited to two.</p>
             <p>A man who had experience with using <span className='font-bold'>Startbucks</span> app on a daily basis </p>
             <p>A woman who had experience using the <span className='font-bold'>Peet's Coffee</span> app </p>
             <p>Both stated that <span className='font-bold'>convenience </span> was their primary reason for using their respective apps, specifically the <span className='font-bold'> order ahead or reorder feature</span></p>
-            <p>The woman mentioned not having to <span className='font-bold'>fumble for a payment method</span> in her purse.</p>
+            <p>The woman mentioned not having to <span className='font-bold'>fumble for a payment method</span> in her purse, when she can use her phone to pay instead.</p>
+            <p>The woman also expressed that she favors local coffee shops instead of big chains, and wishes they had better apps to order ahead.</p>
           </div>
-          <div>
-            <h1 className='font-bold text-xl py-4 text-[#1F1F21]'>Takeaway</h1>
-            <p>Competing on a grand scale with large national companies is not what our app aims to do. Rather, we hope that our users will choose our <span className='font-bold'>local boutique coffee experience </span> and in exchange we offer the same convenient <span className='font-bold'>streamlined experience but with a little more soul and for a good cause.</span></p>
-          </div>
+          <img className='mx-auto p-4' src={coffeeLady} alt='a lady with a coffee in one hand a phone in the other' />
+
+          <img className='mx-auto p-4' src={coffeeShop} alt='someone ordering coffee' />
           <div>
             <h1 className='font-bold text-xl py-4 text-[#1F1F21]'>Competitive Landscape</h1>
             <p>Coffee app usage has skyrocketed in the past 5 years. Apps like Starbucks, Peets, and others have streamlined the coffee ordering process to eliminate the need to fumble with a wallet or cash, enabling the user customize, order, and pay quickly with their phone.</p>
           </div>
 
+          <div>
+            <h1 className='font-bold text-xl py-4 text-[#1F1F21]'>Takeaway</h1>
+            <p>Competing on a grand scale with large national companies is not what our app aims to do. Rather, we hope that our users will choose our <span className='font-bold'>local boutique coffee experience </span> and in exchange we offer the same convenient <span className='font-bold'>streamlined experience but with a little more soul and for a good cause.</span></p>
+          </div>
+          <img className='mx-auto p-4' src={coffeeShopCup} alt='someone receiving a coffee' />
 
         </div>
       </div >
-
-      <div className='flex flex-col justify-center'>
-        <div className='w-full mx-auto px-32'>
-
-        </div>
-      </div>
-
-
     </div >
 
   )
