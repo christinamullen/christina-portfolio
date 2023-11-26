@@ -2,7 +2,6 @@ import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import ww from '../assets/images/WW.png'
 
-
 const UXCaseStudyWW = () => {
   return (
     <div name='uxhero' className=' flex flex-col justify-center bg-[#9995C8]'>
@@ -13,7 +12,7 @@ const UXCaseStudyWW = () => {
             <h2 className='text-white text-1xl sm:text-2xl font-bold py-4'>UX Design • UX Research • Figma • Prototyping</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>User Experience Design project for a Homestay travel app to connect travelers and host families.</p>
             <button className='max-w-[200px] text-white bg-black border-2 border-white-300 px-6 py-3 my-4 flex items-center hover:bg-pink-600 border-pink-600'
-              onClick={() => window.location.href = 'https://www.figma.com/proto/u3cuuuWqyHyOsbnLPuvQve/Pitch-Deck-Christina?type=design&node-id=0-1&t=g0tySnhpzsp8LF68-0&scaling=contain&starting-point-node-id=282%3A8487&show-proto-sidebar=1'}> Prototype
+              onClick={() => window.location.href = 'https://www.figma.com/proto/tHheHUfhaYj3cZ4dmacK2O/WW-wireframes?type=design&node-id=0-1&t=oyWl4lrUdgYxim4q-0&scaling=contain&starting-point-node-id=34%3A1270&show-proto-sidebar=1'}> Prototype
               <span className='hover:pl-4 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
               </span>

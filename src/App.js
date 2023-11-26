@@ -21,6 +21,7 @@ import EmpathyMap from "./components/EmpathyMap";
 import FeaturesImages from "./components/FeaturesImages";
 import Sections from "./components/Sections";
 import Slide from "./components/Slide";
+import SlidePurple from "./components/SlidePurple";
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
               </div>
             } />
              <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /><Features /><SiteArchitecture /><Takeaways/><Work />< Contact /></div>} />
-            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> <PersonaL /><EmpathyMap /><PersonaL /><EmpathyMap /><Slide /><PovHMW /> <FeaturesImages /><Sections /><Slide /><Contact /></div>} />
+            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> <PersonaL /><EmpathyMap /><PersonaL /><EmpathyMap /><Slide /><PovHMW /> <FeaturesImages /><Sections /><Slide /> <SlidePurple /><Contact /></div>} />
             <Route path="/WebDesignII" element={<WebDesignII />} />
           </Routes>
         </div>
