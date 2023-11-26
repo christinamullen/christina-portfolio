@@ -9,7 +9,10 @@ module.exports = {
       backgroundImage: theme => ({
         'bubacan-image': "url('/src/assets/images/bubbacan.jpg')",
         'flexgrid-image': "url('/src/assets/images/FlexboxGrid.jpg')",
-      })
+      }),
+      screens: {
+        'custom': '768px',
+      },
     },
   },
   plugins: [],
