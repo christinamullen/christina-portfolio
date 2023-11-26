@@ -30,7 +30,7 @@ const Work = () => {
               <img className='mx-auto p-4' src={ww} alt='' />
             </div>
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+          <a href="https://github.com/christinamullen" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
             <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-[#C8DEC8] text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:translate-x-5'>
               <h1 className='text-3xl font-bold'>Garden Journal</h1>
               <h3 className='text-sm font-normal p-4'>Advanced Java using JavaFX and mySQL. Tracks your plants and their watering intervals.</h3>
@@ -46,7 +46,7 @@ const Work = () => {
               <img className='mx-auto p-4' src={ev} alt='' />
             </div>
           </a>
-          <a href="https://christinamullen.github.io/project4_apiAI/" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+          <a href="https://github.com/christinamullen/WeddingRSVP-db" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
             <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-[#D6D1E8] text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:translate-x-5'>
               <h1 className='text-3xl font-bold'>Wedding RSVP Portal</h1>
               <h3 className='text-sm font-normal p-4'>Web Programming project where guests can RSVP, lookup by email, select their meal choice, add a +1 guest. </h3>
