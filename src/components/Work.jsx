@@ -9,7 +9,7 @@ import pet from '../assets/images/Pet.png'
 const Work = () => {
   return (
     <div name='work' className='w-full mx-auto flex flex-col justify-center h-auto bg-[#1F1F21] text-gray-300'>
-      <div className='flex flex-col text-4xl font-bold items-center w-full h-full text-white'>
+      <div className='flex flex-col text-4xl font-bold items-center w-full h-full pt-24 text-white'>
         <div className='my-28'>
           <h1 className='text-4xl font-bold inline border-4 px-4 py-2 m-8 border-pink-600'>Work Samples</h1>
         </div>

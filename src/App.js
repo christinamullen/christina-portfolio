@@ -45,6 +45,7 @@ function App() {
             <Route path="/About" element={
              <div>
               <About />
+              <Skills />
               <Work />
               <Contact />
               </div>

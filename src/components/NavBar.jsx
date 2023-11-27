@@ -8,9 +8,12 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 const NavBar = () => {
   const [nav, setNav] = useState(false)
   const [dropdown, setDropdown] = useState(false);
+  const [mobileDropdown, setMobileDropdown] = useState(false);
 
   const handleClick = () => setNav(!nav)
   const handleDropdown = () => setDropdown(!dropdown);
+  const toggleMobileDropdown = () => setMobileDropdown(!mobileDropdown);
+
 
   return (
     <div className='z-10 fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#9995C8] text-gray-950'>
@@ -22,7 +25,7 @@ const NavBar = () => {
       {/* Menu */}
       <ul className='hidden md:flex'>
 
-        <li><RouterLink to="/About">About Me</RouterLink></li>
+
         <div className="relative">
           <button onClick={handleDropdown} className="flex items-center focus:outline-none">
             Case Studies
@@ -36,6 +39,7 @@ const NavBar = () => {
           )}
         </div>
         <li><RouterLink to="/Code">Code Projects</RouterLink></li>
+        <li><RouterLink to="/About">About Me</RouterLink></li>
         <li><RouterLink to="/Contact">Contact</RouterLink></li>
       </ul>
 
@@ -46,7 +50,17 @@ const NavBar = () => {
       {/* Mobile Menu !nav ? 'hidden' : */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#9995C8] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'><RouterLink onClick={handleClick} to="/About">About Me</RouterLink></li>
-        <li className='py-6 text-4xl'><RouterLink onClick={handleClick} to="/Work">Projects</RouterLink></li>
+        <li className='py-6 text-4xl'>
+          <button onClick={toggleMobileDropdown} className='flex items-center focus:outline-none w-full text-left'>
+            Case Studies
+            {dropdown ? <FaChevronUp className="ml-2" /> : <FaChevronDown className="ml-2" />}
+          </button>
+          <ul className={!mobileDropdown ? 'hidden' : 'flex flex-col items-center w-full'}>
+            <li className='py-6 text-4xl'><RouterLink onClick={handleClick} to="/UICaseStudyHC" className='w-full text-center'>UI: Hoodcats Cafe</RouterLink></li>
+            <li><RouterLink onClick={handleClick} to="/UXCaseStudyWW" className='w-full text-center'>UX: Welcome Wanderer</RouterLink></li>
+          </ul>
+        </li>
+        <li className='py-6 text-4xl'><RouterLink onClick={handleClick} to="/C">Code Projects</RouterLink></li>
         <li className='py-6 text-4xl'><RouterLink onClick={handleClick} to="/Contact">Contact</RouterLink></li>
       </ul>
 
