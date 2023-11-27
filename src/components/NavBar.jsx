@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaIdCard } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import Logo from '../assets/images/CMlogo3.png'
 import { Link as RouterLink } from 'react-router-dom';
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
@@ -23,8 +24,9 @@ const NavBar = () => {
 
         <li><RouterLink to="/About">About Me</RouterLink></li>
         <div className="relative">
-          <button onClick={handleDropdown} className=" focus:outline-none">
+          <button onClick={handleDropdown} className="flex items-center focus:outline-none">
             Case Studies
+            {dropdown ? <FaChevronUp className="ml-2" /> : <FaChevronDown className="ml-2" />}
           </button>
           {dropdown && (
             <div className="absolute bg-white shadow-md rounded-md py-2 w-40">

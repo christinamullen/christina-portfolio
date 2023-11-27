@@ -22,6 +22,7 @@ import FeaturesImages from "./components/FeaturesImages";
 import Sections from "./components/Sections";
 import Slide from "./components/Slide";
 import SlidePurple from "./components/SlidePurple";
+import Code from "./components/Code";
 
 
 function App() {
@@ -54,6 +55,12 @@ function App() {
               <Contact />
               </div>
             } />
+            <Route path="/Code" element={
+             <div>
+              <Code />
+              <Contact />
+              </div>
+            } />
             <Route path="/Contact" element={
              <div>
               <Contact />
@@ -66,8 +73,6 @@ function App() {
               <Features />
               <SiteArchitecture />
               <Takeaways/>
-              <Work />
-              <Contact />
               </div>} />
             <Route path="/UXCaseStudyWW" element={
             <div>
@@ -84,7 +89,6 @@ function App() {
              <Slide /> 
              <SlidePurple />
              <Takeaways />
-             <Contact />
              </div>
             } />
             <Route path="/WebDesignII" element={<WebDesignII />} />
