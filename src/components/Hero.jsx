@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#9995C8]'>
 
-       <div className='w-full mx-auto px-32 flex flex-col justify-center h-screen bg-[#1F1F21] text-gray-300'>
+       <div className='w-full mx-auto px-8 sm:px-32 flex flex-col justify-center h-screen bg-[#1F1F21] text-gray-300'>
         <p>hello! My name is</p>
         <h1 className='text-pink-600 text-3xl sm:text-6xl font-bold'>Christina Mullen</h1>
         <h2 className='text-white text-2xl sm:text-4xl font-bold'>Designer and Full Stack Developer. </h2>

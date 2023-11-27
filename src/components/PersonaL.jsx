@@ -38,7 +38,7 @@ const PersonaL = () => {
                     <ul className='w-[300px] bg-[#9995C8] py-4 mt-8 border-2 border-[#F5F5FA]'>
                         <li><span className='font-bold'>Age:</span> 33</li>
                         <li><span className='font-bold'>Education:</span> College Graduate</li>
-                        <li><span className='font-bold'>Occupation:</span> Project Manage</li>
+                        <li><span className='font-bold'>Occupation:</span> Project Manager</li>
                         <li><span className='font-bold'>Location:</span> San Jose, CA</li>
                         <li><span className='font-bold'>Neighborhood:</span> Urban Tech</li>
                     </ul>

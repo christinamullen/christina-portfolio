@@ -9,7 +9,7 @@ import coffeeShopCup from '../assets/images/coffeeResearch2.png'
 const UICaseStudyHC = () => {
   return (
     <div name='uihero' className=' flex flex-col justify-center bg-[#9995C8]'>
-      <div className='w-full mx-auto px-32 bg-[#1F1F21]'>
+      <div className='w-full mx-auto px-8 sm:px-32 bg-[#1F1F21]'>
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 mt-40 gap-8 py-8 '>
           <div>
             <h2 className='text-pink-600 text-2xl sm:text-5xl font-bold'>UI Case Study: Hoodcats Cafe</h2>
