@@ -41,6 +41,24 @@ function App() {
                 <Contact />
               </div>
             } />
+            <Route path="/About" element={
+             <div>
+              <About />
+              <Work />
+              <Contact />
+              </div>
+            } />
+            <Route path="/Work" element={
+             <div>
+              <Work />
+              <Contact />
+              </div>
+            } />
+            <Route path="/Contact" element={
+             <div>
+              <Contact />
+              </div>
+            } />
              <Route path="/UICaseStudyHC" element={
              <div>
               <UICaseStudyHC /> 
@@ -49,7 +67,7 @@ function App() {
               <SiteArchitecture />
               <Takeaways/>
               <Work />
-              < Contact />
+              <Contact />
               </div>} />
             <Route path="/UXCaseStudyWW" element={
             <div>
