@@ -43,7 +43,7 @@ function App() {
               </div>
             } />
              <Route path="/UICaseStudyHC" element={<div><UICaseStudyHC /> <PersonaL /><Features /><SiteArchitecture /><Takeaways/><Work />< Contact /></div>} />
-            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> <PersonaL /><EmpathyMap /><PersonaL /><EmpathyMap /><Slide /><PovHMW /> <FeaturesImages /><Sections /><Slide /> <SlidePurple /><Contact /></div>} />
+            <Route path="/UXCaseStudyWW" element={<div><UXCaseStudyWW /><UserResearch /> <PersonaL /><EmpathyMap /><PersonaL /><EmpathyMap /><Slide /><PovHMW /> <FeaturesImages /><Sections /><Slide /> <SlidePurple /><Takeaways /><Contact /></div>} />
             <Route path="/WebDesignII" element={<WebDesignII />} />
           </Routes>
         </div>
