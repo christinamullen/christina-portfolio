@@ -3,7 +3,7 @@ import laila from '../assets/images/Laila.png'
 
 const PersonaL = () => {
     return (
-        <div name="persona" className='w-full mx-auto px-32 flex flex-col items-center justify-center bg-[#1F1F21]'>
+        <div name="persona" className='w-full mx-auto px-8 sm:px-32 flex flex-col items-center justify-center bg-[#1F1F21]'>
             <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>Persona</h1>
             <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-[#8892b0] text-[#F5F5FA]'>Laila</h1>
 
