@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import ww from '../assets/images/WW.png'
 
@@ -6,7 +7,7 @@ const UXCaseStudyWW = () => {
   const [caseStudy, setCSFields] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost/EE7/index.php/api/caseStudy_JSON')
+    fetch('/index.php/api/caseStudy_JSON')
         .then(response => response.json())
         .then(data => setCSFields(data))
         .catch(error => console.error('Error fetching data:', error));
@@ -23,7 +24,7 @@ const UXCaseStudyWW = () => {
             <h2 className='text-white text-1xl sm:text-2xl font-bold py-4'>{caseStudy.features}</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>{caseStudy.project_intro}</p>
             <button className='max-w-[200px] text-white bg-black border-2 border-white-300 px-6 py-3 my-4 flex items-center hover:bg-pink-600 border-pink-600'
-              onClick={() => window.location.href = 'https://www.figma.com/proto/tHheHUfhaYj3cZ4dmacK2O/WW-wireframes?type=design&node-id=0-1&t=WefZLjA7IWc2UHDZ-0&scaling=contain&starting-point-node-id=34%3A1270&show-proto-sidebar=1'}> {caseStudy.project_url}
+              onClick={() => window.location.href = 'https://www.figma.com/proto/tHheHUfhaYj3cZ4dmacK2O/WW-wireframes?type=design&node-id=0-1&t=WefZLjA7IWc2UHDZ-0&scaling=contain&starting-point-node-id=34%3A1270&show-proto-sidebar=1'}>Prototype {caseStudy.project_url}
               <span className='hover:pl-4 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
               </span>
