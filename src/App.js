@@ -7,6 +7,7 @@ import ArrowDivider from "./components/ArrowDivider";
 import Work from "./components/Work";
 import UICaseStudyHC from "./components/UICaseStudyHC";
 import PersonaL from "./components/PersonaL";
+import Persona from "./components/Persona";
 import Features from "./components/Features";
 import Takeaways from "./components/Takeaways";
 import SiteArchitecture from "./components/SiteArchitecture";
@@ -79,9 +80,9 @@ function App() {
             <div>
               <UXCaseStudyWW />
               <UserResearch />
-             <PersonaL />
+             <Persona />
              <EmpathyMap />
-             <PersonaL />
+             <Persona />
              <EmpathyMap />
              <Slide />
              <PovHMW />
