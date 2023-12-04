@@ -7,12 +7,14 @@ const UXCaseStudyWW = () => {
   const [caseStudy, setCSFields] = useState(null);
 
   useEffect(() => {
-    fetch('/index.php/api/caseStudy_JSON')
+    fetch('/index.php/api/caseStudyWW_JSON')
         .then(response => response.json())
         .then(data => setCSFields(data))
         .catch(error => console.error('Error fetching data:', error));
   }, []);
 
+
+  
   return (
     <div name='uxhero' className=' flex flex-col justify-center bg-[#9995C8]'>
       {caseStudy ? (
@@ -40,43 +42,23 @@ const UXCaseStudyWW = () => {
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 py-8'>
           <div>
             <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Challenge</h1>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>Create a welcoming, unique, and mutually beneficial homestay travel experience for hosts and guests.</p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>{caseStudy.challenge}</p>
           </div>
           <div>
             <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Role</h1>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>User interface designer in a team of 3 </p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>{caseStudy.role}</p>
           </div>
           <div>
             <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Tools</h1>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>
-              <ul>
-                <li>Figma</li>
-                <li>Adobe Illustrator</li>
-                <li>Maze.co</li>
-                <li>Google Suite</li>
-                <li>Zoom</li>
-              </ul>
-            </p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>{caseStudy.tools}</p>
           </div>
           <div>
             <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Deliverables</h1>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>
-              <ul>
-                <li>User Research</li>
-                <li>Guest & Host Personas</li>
-                <li>Empathy Maps</li>
-                <li>HMW & POV Statements</li>
-                <li>Competitive Analysis</li>
-                <li>Journey Map</li>
-                <li>Prototype</li>
-                <li>User Flows</li>
-                <li>Maze Usability Reports</li>
-              </ul>
-            </p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>{caseStudy.deliverables}</p>
           </div>
           <div>
             <h1 className='text-2xl font-bold inline py-2 text-[#F5F5FA]'>Timeline</h1>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>February 2023 - April 2023</p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>{caseStudy.timeline}</p>
           </div>
         </div>
         
