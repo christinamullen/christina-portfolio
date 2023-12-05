@@ -43,7 +43,7 @@ const Persona = () => {
                         </div>
 
                         <div name='col2' className='order-1 sm:order-2 mx-auto'>
-                            <img className='max-h-[368px] mx-auto rounded-full border-2 p-4' src="{persona.img2}" alt='host' />
+                            <img className='max-h-[368px] mx-auto rounded-full border-2 p-4' src={persona.persona_img2} alt='host' />
                             <ul className='w-[300px] bg-[#9995C8] py-4 mt-8 border-2 border-[#F5F5FA]'>
                                 <li><span className='font-bold'>Age:</span> 33</li>
                                 <li><span className='font-bold'>Education:</span> College Graduate</li>
