@@ -8,6 +8,7 @@ import Work from "./components/Work";
 import UICaseStudyHC from "./components/UICaseStudyHC";
 import PersonaL from "./components/PersonaL";
 import Persona from "./components/Persona";
+import PersonaGuest from "./components/PersonaGuest";
 import Features from "./components/Features";
 import Takeaways from "./components/Takeaways";
 import SiteArchitecture from "./components/SiteArchitecture";
@@ -24,6 +25,10 @@ import Sections from "./components/Sections";
 import Slide from "./components/Slide";
 import SlidePurple from "./components/SlidePurple";
 import Code from "./components/Code";
+import EmpathyMapGuest from "./components/EmpathyMapGuest";
+import CompetitiveAnalysis from "./components/CompetitiveAnalysis";
+import UserFlows from "./components/UserFlows";
+import UserTesting from "./components/UserTesting";
 
 
 function App() {
@@ -82,14 +87,14 @@ function App() {
               <UserResearch />
              <Persona />
              <EmpathyMap />
-             <Persona />
-             <EmpathyMap />
-             <Slide />
+             <PersonaGuest />
+             <EmpathyMapGuest />
+             <CompetitiveAnalysis />
              <PovHMW />
              <FeaturesImages />
              <Sections />
-             <Slide /> 
-             <SlidePurple />
+             <UserFlows /> 
+             <UserTesting />
              <Takeaways />
              </div>
             } />

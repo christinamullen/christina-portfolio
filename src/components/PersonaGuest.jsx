@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
-const Persona = () => {
+const PersonaGuest = () => {
     const [persona, setPerFields] = useState(null);
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_URL}/personaHost_JSON`)
+        fetch(`${process.env.REACT_APP_API_URL}/personaGuest_JSON`)
             .then(response => response.json())
             .then(data => setPerFields(data))
             .catch(error => console.error('Error fetching data:', error));
@@ -12,7 +12,7 @@ const Persona = () => {
     return (
         <div>
             {persona ? (
-                <div name="persona" className='w-full mx-auto px-8 sm:px-32 flex flex-col items-center justify-center bg-[#1F1F21]'>
+                <div name="personaguest" className='w-full mx-auto px-8 sm:px-32 flex flex-col items-center justify-center bg-[#1F1F21]'>
                     <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>{persona.persona_header2}</h1>
                     <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-[#8892b0] text-[#F5F5FA]'>{persona.persona_name2}</h1>
                     <div className='max-w-[1200px] grid grid-cols-1 sm:grid-cols-3 gap-8 py-8'>
@@ -80,4 +80,4 @@ const Persona = () => {
     )
 }
 
-export default Persona
+export default PersonaGuest

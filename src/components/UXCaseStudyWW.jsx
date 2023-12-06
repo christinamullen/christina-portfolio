@@ -6,13 +6,11 @@ const UXCaseStudyWW = () => {
   const [caseStudy, setCSFields] = useState(null);
 
   useEffect(() => {
-    fetch('/index.php/api/caseStudyWW_JSON')
+    fetch(`${process.env.REACT_APP_API_URL}/caseStudyWW_JSON`)
       .then(response => response.json())
       .then(data => setCSFields(data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
-
-
 
   return (
     <div name='uxhero' className=' flex flex-col justify-center bg-[#9995C8]'>
