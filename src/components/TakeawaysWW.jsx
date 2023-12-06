@@ -4,7 +4,7 @@ const TakeawaysWW = () => {
     const [ta, setImgFields] = useState(null);
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_URL}/imgWW_JSON`)
+        fetch(`${process.env.REACT_APP_API_URL}/msc_JSON`)
             .then(response => response.json())
             .then(data => setImgFields(data))
             .catch(error => console.error('Error fetching data:', error));
@@ -18,7 +18,7 @@ const TakeawaysWW = () => {
                         {ta.takeaways_ww}
                     </p>
                 </div>
-            ) : (<p>Loading Competitive Analysis...</p>)}
+            ) : (<p>Loading Final Thoughts...</p>)}
         </div>
     )
 }
