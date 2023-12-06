@@ -15,7 +15,7 @@ const EmpathyMapGuest = () => {
             {empMap ? (
                 <div className='w-full mx-auto flex flex-col items-center justify-center'>
                     <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-20 mb-4 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'> Guest Empathy Map</h1>
-                    <img className='max-w-[800px] mx-auto p-4' src={empMap.empathy_map1} alt='app architecture' />
+                    <img className='max-w-[800px] mx-auto p-4' src={empMap.empathy_map1} alt='host empathy map' />
                 </div>
             ) : (<p>Loading empathy map...</p>)}
         </div>

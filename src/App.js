@@ -29,6 +29,7 @@ import EmpathyMapGuest from "./components/EmpathyMapGuest";
 import CompetitiveAnalysis from "./components/CompetitiveAnalysis";
 import UserFlows from "./components/UserFlows";
 import UserTesting from "./components/UserTesting";
+import TakeawaysWW from "./components/TakeawaysWW";
 
 
 function App() {
@@ -95,7 +96,7 @@ function App() {
              <Sections />
              <UserFlows /> 
              <UserTesting />
-             <Takeaways />
+             <TakeawaysWW />
              </div>
             } />
             <Route path="/WebDesignII" element={<WebDesignII />} />
