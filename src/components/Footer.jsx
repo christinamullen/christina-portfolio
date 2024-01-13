@@ -4,10 +4,9 @@ const Footer = () => {
   return (
     <div name='footer' className='w-full mx-auto px-8 bg-[#1F1F21] text-gray-300'>
 
-        <div className='text-center py-32'>
-            <a href='/WebDesignII' className='p-8'>Coursework for: ARTDM-173 Web Design II </a>
-            <p className='pt-8'>Developed using React and Tailwind CSS by Christina Mullen © 2023</p>
-        </div>
+      <div className='text-center pt-32 pb-20'>
+        <p className='pt-8'>Developed using React and Tailwind CSS by Christina Mullen © 2024</p>
+      </div>
     </div>
   )
 }

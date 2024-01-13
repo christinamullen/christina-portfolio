@@ -22,7 +22,7 @@ const UICaseStudyHC = () => {
             <p className='text-[#D93232] text-xl font-bold py-4 max-w-[700px]'>Case Study: non-profit cat cafe mobile app</p>
             <p className='text-[#1F1F21] sm:text-lg font-semibold '>UI Design • Figma • Prototyping • Wireframes</p>
 
-            <button className='max-w-[200px] text-black font-bold bg-[#c] rounded-3xl border-2 shadow-2xl shadow-outline border-white-300 px-6 py-3 my-4 flex items-center hover:bg-[#D93232] hover:text-[#FAF9F9] border-black'
+            <button className='max-w-[200px] text-black font-bold bg-[#F3c522] rounded-3xl border-2 shadow-2xl shadow-outline border-white-300 px-6 py-3 my-4 flex items-center hover:bg-[#D93232] hover:text-[#FAF9F9] border-black'
               onClick={() => window.location.href = 'https://www.figma.com/proto/u3cuuuWqyHyOsbnLPuvQve/Pitch-Deck-Christina?type=design&node-id=0-1&t=g0tySnhpzsp8LF68-0&scaling=contain&starting-point-node-id=282%3A8487&show-proto-sidebar=1'}> Prototype
               <span className='hover:pl-4 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />

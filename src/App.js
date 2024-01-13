@@ -22,8 +22,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import EmpathyMap from "./components/EmpathyMap";
 import FeaturesImages from "./components/FeaturesImages";
 import Sections from "./components/Sections";
-import Slide from "./components/Slide";
-import SlidePurple from "./components/SlidePurple";
 import Code from "./components/Code";
 import EmpathyMapGuest from "./components/EmpathyMapGuest";
 import CompetitiveAnalysis from "./components/CompetitiveAnalysis";
@@ -79,7 +77,6 @@ function App() {
               <UICaseStudyHC /> 
               <PersonaL />
               <Features />
-              <SiteArchitecture />
               <Takeaways/>
               </div>} />
             <Route path="/UXCaseStudyWW" element={
