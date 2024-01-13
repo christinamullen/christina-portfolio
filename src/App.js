@@ -11,7 +11,6 @@ import Persona from "./components/Persona";
 import PersonaGuest from "./components/PersonaGuest";
 import Features from "./components/Features";
 import Takeaways from "./components/Takeaways";
-import SiteArchitecture from "./components/SiteArchitecture";
 import UXCaseStudyWW from "./components/UXCaseStudyWW";
 import UserResearch from "./components/UserResearch";
 import Contact from "./components/Contact";
@@ -78,6 +77,7 @@ function App() {
               <PersonaL />
               <Features />
               <Takeaways/>
+              <Contact />
               </div>} />
             <Route path="/UXCaseStudyWW" element={
             <div>

@@ -6,8 +6,8 @@ const PersonaL = () => {
         <div>
             <div name="persona" className='w-full mx-auto px-8 sm:px-32 flex flex-col items-center justify-center bg-[#1F1F21]'>
                 <h1 className='sm:text-4xl font-bold inline px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>When We Think About Our Users</h1>
-                <h1 className='sm:text-2xl font-bold inline px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>We think about</h1>
-                <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] text-[#F5F5FA] text-[#F3c522]'>Laila</h1>
+                <h1 className='sm:text-2xl font-bold inline px-4 py-2  tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>We think about</h1>
+                <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-4 tracking-wider bg-[#1F1F21] text-[#F3c522]'>Laila</h1>
 
                 <div className='max-w-[1200px] grid grid-cols-1 sm:grid-cols-3 gap-8 py-8'>
 

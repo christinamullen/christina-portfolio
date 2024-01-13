@@ -6,7 +6,7 @@ import ur1 from '../assets/images/UR_1.png'
 import ur2 from '../assets/images/UR_2.png'
 import ur3 from '../assets/images/UR_3.png'
 import ur4 from '../assets/images/UR_4.png'
-import catCoffee from '../assets/images/coffeeCat.png'
+import squig from '../assets/images/sqig.png'
 import coffeeLady from '../assets/images/coffeeLady.png'
 import coffeeShopCup from '../assets/images/coffeeResearch2.png'
 import catCafeLap from '../assets/images/catCafe.png'
@@ -113,11 +113,13 @@ const UICaseStudyHC = () => {
           <img className='mx-auto p-4' src={catCafeLap} alt='coffee cup with ears' />
           <div className='py-16'>
             <h1 className='font-bold text-2xl py-4 text-[#1F1F21]'>Competitive Landscape</h1>
+            <img className='' src={squig} alt='squigg' />
             <p>Coffee app usage has skyrocketed in the past 5 years. Apps like Starbucks, Peets, and others have <span className='font-bold'>streamlined the coffee ordering process</span> to eliminate the need to fumble with a wallet or cash, enabling the user customize, order, and pay quickly with their phone.</p>
           </div>
 
           <div className='py-16 text-[#1F1F21]'>
             <h1 className='font-bold text-2xl py-4 text-[#1F1F21]'> Research Summary</h1>
+            <img className='' src={squig} alt='squigg' />
             <p>Competing on a grand scale with large national companies is not what our app aims to do. Rather, we hope that our users will choose our <span className='font-bold'>local boutique coffee experience </span> and in exchange we offer the same <span className='font-bold'>convenient, streamlined experience but with a little soul and for a good cause.</span></p>
           </div>
           <img className='mx-auto p-4' src={coffeeShopCup} alt='someone receiving a coffee' />

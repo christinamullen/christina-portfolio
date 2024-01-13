@@ -23,7 +23,7 @@ const Features = () => {
                         <h2 className='text-xl font-bold text-[#222121]'>Rewards progress link</h2>
                         <h2 className='text-xl font-bold text-[#222121]'>Reorder feature front and center for easy access</h2>
                     </div>
-                    <div className='pt-16'>
+                    <div className='pt-16 sm:pl-32'>
                         <h1 className='text-3xl font-bold inline py-2 text-[#222121]'>Rewards</h1>
                         <h2 className='text-xl font-bold pt-4 text-[#222121]'>Rewards points are accumulated</h2>
                         <h2 className='text-xl font-bold text-[#222121]'>Celebrated with milestones like free coffee</h2>
@@ -45,7 +45,7 @@ const Features = () => {
                         <h2 className='text-xl font-bold text-[#222121]'>Favorited cats stored here</h2>
                         <h2 className='text-xl font-bold text-[#222121]'>Booked visits to the cafe stored here</h2>
                     </div>
-                    <div className='pt-16'>
+                    <div className='pt-16 sm:pl-32'>
                         <h1 className='text-3xl font-bold inline py-2 text-[#222121]'>Book a visit to the Cafe</h1>
                         <h2 className='text-xl font-bold pt-4 text-[#222121]'>Calendar for selecting a day and time</h2>
                     </div>
@@ -54,7 +54,7 @@ const Features = () => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center'>
-                        <img className='max-h-[400px] mx-auto' src={uiGallery} alt='inbox prototype' />
+                        <img className='max-h-[400px] mx-auto' src={uiGallery} alt='gallery prototype frame' />
                     </div>
                     <div className='pt-16'>
                         <h1 className='text-3xl font-bold inline py-2 text-[#222121]'>Gallery of Resident Cats</h1>
