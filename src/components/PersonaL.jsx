@@ -5,14 +5,15 @@ const PersonaL = () => {
     return (
         <div>
             <div name="persona" className='w-full mx-auto px-8 sm:px-32 flex flex-col items-center justify-center bg-[#1F1F21]'>
-                <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>Persona</h1>
-                <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] border-[#8892b0] text-[#F5F5FA]'>Laila</h1>
+                <h1 className='sm:text-4xl font-bold inline px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>When We Think About Our Users</h1>
+                <h1 className='sm:text-2xl font-bold inline px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>We think about</h1>
+                <h1 className='sm:text-4xl font-bold inline border-4 px-4 py-2 mt-8 tracking-wider bg-[#1F1F21] text-[#F3c522]'>Laila</h1>
 
                 <div className='max-w-[1200px] grid grid-cols-1 sm:grid-cols-3 gap-8 py-8'>
 
                     <div name='col1' className='order-2 sm:order-2 mx-auto'>
                         <div className='w-[300px] flex flex-col items-center justify-center border-2 border-[#F5F5FA] bg-[#9995C8] pb-8 mb-6'>
-                            <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>Pain Points</h1>
+                            <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>Pain Points</h1>
                             <ul>
                                 <li>Always on the go</li>
                                 <li>Needs her coffee, but running short on time</li>
@@ -21,7 +22,7 @@ const PersonaL = () => {
                             </ul>
                         </div>
                         <div className='w-[300px] flex flex-col items-center justify-center border-2 border-[#F5F5FA] bg-[#9995C8] pb-8'>
-                            <h1 className='max-w-[200px] sm:text-2xl inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>Personality & Known Habits</h1>
+                            <h1 className='max-w-[200px] sm:text-2xl inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>Personality & Known Habits</h1>
                             <ul className='py-2'>
                                 <li>Independent</li>
                                 <li>Compassionate</li>
@@ -47,7 +48,7 @@ const PersonaL = () => {
 
                     <div name='col3' className='order-3'>
                         <div className='w-[300px] flex flex-col items-center justify-center border-2 border-[#F5F5FA] bg-[#9995C8] pb-8 mb-6'>
-                            <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>Goals</h1>
+                            <h1 className='sm:text-2xl font-bold inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>Goals</h1>
                             <ul>
                                 <li>Order and pay for coffee ahead of time</li>
                                 <li>Pickup morning coffee</li>
@@ -57,7 +58,7 @@ const PersonaL = () => {
                             </ul>
                         </div>
                         <div className='w-[300px] flex flex-col items-center justify-center border-2 border-[#F5F5FA] bg-[#9995C8] pb-8'>
-                            <h1 className='max-w-[200px] sm:text-2xl inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] border-pink-600 text-[#F5F5FA]'>Bio </h1>
+                            <h1 className='max-w-[200px] sm:text-2xl inline border-2 px-4 py-2 my-4 tracking-wider bg-[#1F1F21] text-[#F5F5FA]'>Bio </h1>
                             <p className='px-4'>Laila is a busy professional. She needs her coffee but is also conscious about where her money goes and would prefer to support small businesses or preferably a non-profit. Laila has a busy job and wishes her apartment would allow her to have a pet. She has heard about cat cafes and thinks this would be a good way to get her cat fix. </p>
                         </div>
                     </div>
