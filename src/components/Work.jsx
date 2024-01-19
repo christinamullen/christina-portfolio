@@ -56,13 +56,15 @@ const Work = () => {
               <img className='mx-auto p-4' src={rsvp} alt='' />
             </div>
           </a>
-          <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-[#D4DDDB] text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:-translate-x-5'>
-            <h1 className='text-3xl font-bold'>Vet Office</h1>
-            <h1 className='text-3xl font-bold'>Waiting Room Simulator</h1>
-            <h3 className='text-sm font-normal p-4'>Simulates daily patient flow in a medical office. Severity rancomly ranked 1-5, with most severe given greatest priority.</h3>
-            <p className='text-sm tracking-wider'>C++ • Data Structures • Error Testing • Big-O runtime optimization</p>
-            <img className='mx-auto p-4 max-h-[350px]' src={pet} alt='' />
-          </div>
+          <a href="https://github.com/christinamullen" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+            <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-[#D4DDDB] text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:-translate-x-5'>
+              <h1 className='text-3xl font-bold'>Vet Office</h1>
+              <h1 className='text-3xl font-bold'>Waiting Room Simulator</h1>
+              <h3 className='text-sm font-normal p-4'>Simulates daily patient flow in a medical office. Severity rancomly ranked 1-5, with most severe given greatest priority.</h3>
+              <p className='text-sm tracking-wider'>C++ • Data Structures • Error Testing • Big-O runtime optimization</p>
+              <img className='mx-auto p-4 max-h-[350px]' src={pet} alt='' />
+            </div>
+          </a>
 
 
         </div>
