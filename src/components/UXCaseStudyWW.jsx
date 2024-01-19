@@ -3,7 +3,9 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import ww from '../assets/images/wwHero.svg'
 
 const UXCaseStudyWW = () => {
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div name='uxhero' className=' flex flex-col justify-center bg-[#9995C8]'>
       <div className='w-full mx-auto px-8 sm:px-32 bg-[#1F1F21]'>

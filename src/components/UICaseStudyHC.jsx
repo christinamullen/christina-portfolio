@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import hoodcats from '../assets/images/HCHero.svg'
 import coffeeShop from '../assets/images/coffeeResearch.png'
@@ -12,6 +12,9 @@ import coffeeShopCup from '../assets/images/coffeeResearch2.png'
 import catCafeLap from '../assets/images/catCafe.png'
 
 const UICaseStudyHC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div name='uihero' className=' flex flex-col justify-center bg-[#9995C8]'>
 

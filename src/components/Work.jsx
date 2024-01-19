@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom';
-import hoodcats from '../assets/images/HCUI.png'
-import ww from '../assets/images/WW.png'
+import { HiArrowNarrowRight } from 'react-icons/hi'
+import hoodcats from '../assets/images/HCHero.svg'
+import ww from '../assets/images/wwHero.svg'
 import flora from '../assets/images/Flora.png'
 import rsvp from '../assets/images/RSVPpysql.png'
 import ev from '../assets/images/zzJS.png'
@@ -21,7 +22,7 @@ const Work = () => {
               <h1 className='text-3xl font-bold px-4'>Case Study: Hoodcats Cafe</h1>
               <h3 className='text-sm font-normal p-4'>User Interface Design for non-profit cat cafe and adoption center mobile app</h3>
               <p className='text-sm tracking-wider'>UI Deisgn  •  Figma  •  Prototyping  •  Wireframes</p>
-              <img className='mx-auto p-4' src={hoodcats} alt='' />
+              <img className='max-w-[425px] mx-auto p-4' src={hoodcats} alt='' />
             </div>
           </RouterLink>
           <RouterLink to="/UXCaseStudyWW" className="block cursor-pointer">
@@ -29,7 +30,7 @@ const Work = () => {
               <h1 className='text-3xl font-bold px-4'>Case Study: Welcome Wanderer</h1>
               <h3 className='text-sm font-normal p-4'>User Experience Design for a homestay travel mobile app</h3>
               <p className='text-sm tracking-wider'>UX Deisgn • UX Research • Figma • Prototyping</p>
-              <img className='mx-auto p-4' src={ww} alt='' />
+              <img className='max-w-[425px] mx-auto p-4' src={ww} alt='' />
             </div>
           </RouterLink>
           <a href="https://github.com/christinamullen" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
