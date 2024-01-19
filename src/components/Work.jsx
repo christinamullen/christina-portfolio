@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link as RouterLink } from 'react-router-dom';
 import hoodcats from '../assets/images/HCUI.png'
 import ww from '../assets/images/WW.png'
 import flora from '../assets/images/Flora.png'
@@ -15,22 +16,22 @@ const Work = () => {
         </div>
 
         <div className='max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-2 gap-8 py-8'>
-          <a href="/UICaseStudyHC" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+          <RouterLink to="/UICaseStudyHC" className="block cursor-pointer">
             <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-white text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:translate-x-5'>
               <h1 className='text-3xl font-bold px-4'>Case Study: Hoodcats Cafe</h1>
               <h3 className='text-sm font-normal p-4'>User Interface Design for non-profit cat cafe and adoption center mobile app</h3>
               <p className='text-sm tracking-wider'>UI Deisgn  •  Figma  •  Prototyping  •  Wireframes</p>
               <img className='mx-auto p-4' src={hoodcats} alt='' />
             </div>
-          </a>
-          <a href="/UXCaseStudyWW" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
+          </RouterLink>
+          <RouterLink to="/UXCaseStudyWW" className="block cursor-pointer">
             <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-white text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:-translate-x-5'>
               <h1 className='text-3xl font-bold px-4'>Case Study: Welcome Wanderer</h1>
               <h3 className='text-sm font-normal p-4'>User Experience Design for a homestay travel mobile app</h3>
               <p className='text-sm tracking-wider'>UX Deisgn • UX Research • Figma • Prototyping</p>
               <img className='mx-auto p-4' src={ww} alt='' />
             </div>
-          </a>
+          </RouterLink>
           <a href="https://github.com/christinamullen" target="_blank" rel="noopener noreferrer" className="block cursor-pointer">
             <div className='h-[580px] mx-8 col-span-1 text-center rounded-3xl py-8 bg-[#C8DEC8] text-black transform transition-transform duration-500 ease-in-out md:hover:scale-110 md:hover:translate-x-5'>
               <h1 className='text-3xl font-bold'>Garden Journal</h1>
@@ -66,7 +67,7 @@ const Work = () => {
 
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
